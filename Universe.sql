@@ -483,64 +483,64 @@ INSERT INTO public.galaxy VALUES ('draco', 'deo', 6, 26000, 1500);
 
 INSERT INTO public.inspiring_quote VALUES (NULL, NULL, 1, 1);
 INSERT INTO public.inspiring_quote VALUES ('carl_sagan', 'Every one of us is, in the cosmic perspective, precious. If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.', 2, 2);
-INSERT INTO public.inspiring_quote VALUES ('tysson', 'stars are beautiful', 3, 3);
-INSERT INTO public.inspiring_quote VALUES ('fernando', 'hola, que tal', 4, 4);
+INSERT INTO public.inspiring_quote VALUES ('neyl_degrasse_tysson', 'Not only do we live among the stars, the stars live within us.', 3, 3);
+INSERT INTO public.inspiring_quote VALUES ('stephen_hawking', 'We are just an advanced breed of monkeys on a minor planet of a very average star. But we can understand the universe. That makes us something very special.', 4, 4);
 
 
 --
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.moon VALUES (2, 'la', 1, 'u', false, 1);
-INSERT INTO public.moon VALUES (3, 'le', 2, 'o', false, 2);
-INSERT INTO public.moon VALUES (4, 'li', 3, 'i', false, 3);
-INSERT INTO public.moon VALUES (5, 'llof', 4, 'a', false, 4);
-INSERT INTO public.moon VALUES (6, 'ilo', 5, 'a', false, 5);
-INSERT INTO public.moon VALUES (7, 'lilo', 34, 'a', false, 6);
-INSERT INTO public.moon VALUES (8, 'proust', 542, 'a', true, 7);
-INSERT INTO public.moon VALUES (9, 'nana', 4234, 'b', true, 8);
-INSERT INTO public.moon VALUES (10, 'grecia', 24234, 'j', true, 9);
-INSERT INTO public.moon VALUES (11, 'hola', 2233, 'o', true, 10);
-INSERT INTO public.moon VALUES (12, 'hallo', 12322, 'a', true, 11);
-INSERT INTO public.moon VALUES (13, 'merlinito', 24234, 'o', false, 12);
-INSERT INTO public.moon VALUES (14, 'chaplin', 7923, 'i', true, 13);
-INSERT INTO public.moon VALUES (15, 'eco', 27383, 'u', true, 14);
-INSERT INTO public.moon VALUES (16, 'capa', 1282, 'a', true, 15);
-INSERT INTO public.moon VALUES (17, 'klimt', 7293, 'j', true, 16);
-INSERT INTO public.moon VALUES (18, 'asterix', 8293, 'i', true, 17);
-INSERT INTO public.moon VALUES (19, 'snoopy', 78293, 'g', true, 18);
-INSERT INTO public.moon VALUES (20, 'rulfo', 78293, 'f', true, 19);
-INSERT INTO public.moon VALUES (21, 'gaudi', 78823, 'j', true, 20);
+INSERT INTO public.moon VALUES (2, 'Luna', 1, 'u', false, 1);
+INSERT INTO public.moon VALUES (3, 'Clio', 2, 'o', false, 2);
+INSERT INTO public.moon VALUES (4, 'Carpo', 3, 'i', false, 3);
+INSERT INTO public.moon VALUES (5, 'Calirrhoe', 4, 'a', false, 4);
+INSERT INTO public.moon VALUES (6, 'Carme', 5, 'a', false, 5);
+INSERT INTO public.moon VALUES (7, 'Chaldene', 34, 'a', false, 6);
+INSERT INTO public.moon VALUES (8, 'Aoede', 542, 'a', true, 7);
+INSERT INTO public.moon VALUES (9, 'Arche', 4234, 'b', true, 8);
+INSERT INTO public.moon VALUES (10, 'Callisto', 24234, 'j', true, 9);
+INSERT INTO public.moon VALUES (11, 'Cyllene', 2233, 'o', true, 10);
+INSERT INTO public.moon VALUES (12, 'Euanthe', 12322, 'a', true, 11);
+INSERT INTO public.moon VALUES (13, 'Europa', 24234, 'o', false, 12);
+INSERT INTO public.moon VALUES (14, 'Ganymede', 7923, 'i', true, 13);
+INSERT INTO public.moon VALUES (15, 'Hegemone', 27383, 'u', true, 14);
+INSERT INTO public.moon VALUES (16, 'Helike', 1282, 'a', true, 15);
+INSERT INTO public.moon VALUES (17, 'Hermippe', 7293, 'j', true, 16);
+INSERT INTO public.moon VALUES (18, 'Isonone', 8293, 'i', true, 17);
+INSERT INTO public.moon VALUES (19, 'Magaclite', 78293, 'g', true, 18);
+INSERT INTO public.moon VALUES (20, 'Metis', 78293, 'f', true, 19);
+INSERT INTO public.moon VALUES (21, 'Sinope', 78823, 'j', true, 20);
 
 
 --
 -- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.planet VALUES (1, 'tierra', 888888, 77777, 'mediano', 1);
-INSERT INTO public.planet VALUES (2, 'marte', 887, 985, 'chico', 2);
-INSERT INTO public.planet VALUES (3, 'saturno', 4747, 7373, 'grande', 3);
-INSERT INTO public.planet VALUES (4, 'jupiter', 56, 34, 'grande', 4);
-INSERT INTO public.planet VALUES (5, 'merlin', 32, 12, 'grande', 5);
-INSERT INTO public.planet VALUES (6, 'clio', 89, 98, 'grande', 6);
-INSERT INTO public.planet VALUES (7, 'cleopatra', 893, 7893, 'grande', 7);
-INSERT INTO public.planet VALUES (8, 'mercurio', 783, 7823, 'chico', 8);
-INSERT INTO public.planet VALUES (9, 'urano', 79, 234, 'chiquito', 9);
-INSERT INTO public.planet VALUES (10, 'tuano', 23, 453, 'grande', 10);
-INSERT INTO public.planet VALUES (11, 'hercules', 823, 823, 'grande', 11);
-INSERT INTO public.planet VALUES (12, 'megara', 78293, 72839, 'chico', 12);
+INSERT INTO public.planet VALUES (1, 'Tierra', 888888, 77777, 'mediano', 1);
+INSERT INTO public.planet VALUES (2, 'Marte', 887, 985, 'chico', 2);
+INSERT INTO public.planet VALUES (3, 'Venus', 4747, 7373, 'grande', 3);
+INSERT INTO public.planet VALUES (4, 'Jupiter', 56, 34, 'grande', 4);
+INSERT INTO public.planet VALUES (5, 'Saturno', 32, 12, 'grande', 5);
+INSERT INTO public.planet VALUES (6, 'Urano', 89, 98, 'grande', 6);
+INSERT INTO public.planet VALUES (7, 'Neptuno', 893, 7893, 'grande', 7);
+INSERT INTO public.planet VALUES (8, 'Mercurio', 783, 7823, 'chico', 8);
+INSERT INTO public.planet VALUES (9, 'Zeus', 79, 234, 'chico', 9);
+INSERT INTO public.planet VALUES (10, 'Cronos', 23, 453, 'grande', 10);
+INSERT INTO public.planet VALUES (11, 'Hermes', 823, 823, 'grande', 11);
+INSERT INTO public.planet VALUES (12, 'Poseidon', 78293, 72839, 'chico', 12);
 
 
 --
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.star VALUES (1, 'sol', 1391016, true, 'G', 2, 1);
-INSERT INTO public.star VALUES (2, 'pistola', 1458987, true, 'F', 2, 2);
-INSERT INTO public.star VALUES (3, 'estrellota', 777777, true, 'D', 2, 3);
-INSERT INTO public.star VALUES (4, 'estrellisima', 99999, true, 'E', 2, 4);
-INSERT INTO public.star VALUES (5, 'estrellada', 88888, false, 'T', 2, 5);
-INSERT INTO public.star VALUES (6, 'burro', 9997879, false, 'Y', 2, 6);
+INSERT INTO public.star VALUES (1, 'Sol', 1391016, true, 'G', 2, 1);
+INSERT INTO public.star VALUES (2, 'Alfa Crntauri A', 1458987, true, 'F', 2, 2);
+INSERT INTO public.star VALUES (3, 'Vega', 777777, true, 'D', 2, 3);
+INSERT INTO public.star VALUES (4, 'Rigel', 99999, true, 'E', 2, 4);
+INSERT INTO public.star VALUES (5, 'Procyon', 88888, false, 'T', 2, 5);
+INSERT INTO public.star VALUES (6, 'Canopus', 9997879, false, 'Y', 2, 6);
 
 
 --
